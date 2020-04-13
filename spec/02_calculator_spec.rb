@@ -54,7 +54,6 @@ describe "#multiply" do
   it "multiplies two other numbers, one of them being 0" do
     expect(multiply(0, 1)).to eq(0)
   end
-
 end
 
 describe "#power" do
@@ -65,6 +64,7 @@ end
 
 # http://en.wikipedia.org/wiki/Factorial
 describe "#factorial" do
+
   it "computes the factorial of 0" do
     expect(factorial(0)).to eq(1)
   end
